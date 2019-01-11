@@ -1,0 +1,74 @@
+ORGANIZATION_BLOCK PRINCIPAL:OB1
+TITLE=COMENTARIOS DEL PROGRAMA
+BEGIN
+Network 1 // Título de segmento
+// Comentario de segmento
+LD     V0.1
+O      Q0.1
+ON     I0.2
+AN     I0.5
+A      I0.1
+AN     Q0.2
+AN     Q0.3
+AN     I0.0
+=      Q0.1
+Network 2 
+LDN    Q0.1
+O      Q0.2
+ON     I0.2
+A      I0.5
+AN     I0.4
+AN     Q0.3
+AN     V0.0
+=      Q0.2
+Network 3 
+LD     I0.4
+AN     Q0.2
+EU
+TOF    T37, 50
+Network 4 
+LD     T37
+A      I0.1
+AN     I0.0
+=      Q0.0
+Network 5 
+LD     I0.4
+O      Q0.3
+ON     I0.2
+AN     Q0.0
+A      I0.6
+A      I0.1
+AN     Q0.2
+AN     Q0.1
+AN     I0.0
+=      Q0.3
+Network 6 
+LDN    I0.1
+O      V0.0
+O      I0.0
+AN     I0.3
+=      V0.0
+Network 7 
+LD     I0.3
+O      V0.1
+A      I0.1
+AN     I0.0
+A      I0.2
+=      V0.1
+Network 8 
+LD     Q0.0
+A      SM0.5
+=      Q0.4
+END_ORGANIZATION_BLOCK
+SUBROUTINE_BLOCK SBR_0:SBR0
+TITLE=COMENTARIOS DE LA SUBRUTINA
+BEGIN
+Network 1 // Título de segmento
+// Comentario de segmento
+END_SUBROUTINE_BLOCK
+INTERRUPT_BLOCK INT_0:INT0
+TITLE=COMENTARIOS DE LA RUTINA DE INTERRUPCIÓN
+BEGIN
+Network 1 // Título de segmento
+// Comentario de segmento
+END_INTERRUPT_BLOCK

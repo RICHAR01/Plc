@@ -1,0 +1,45 @@
+ORGANIZATION_BLOCK PRINCIPAL:OB1
+TITLE=COMENTARIOS DEL PROGRAMA
+BEGIN
+Network 1 // MOTOR CAJA
+LD     I0.2
+O      Q0.0
+AN     I0.3
+O      V0.1
+AN     V0.0
+=      Q0.0
+Network 2 // BOLSAS
+LD     I0.3
+O      Q0.1
+AN     Q0.0
+AN     V0.0
+=      Q0.1
+Network 3 
+LD     I0.4
+LD     Q0.0
+CTU    C1, 2
+Network 4 
+LD     C1
+O      V0.1
+A      I0.3
+A      I0.1
+=      V0.1
+Network 5 
+LDN    I0.1
+O      I0.0
+O      V0.0
+AN     I0.2
+=      V0.0
+END_ORGANIZATION_BLOCK
+SUBROUTINE_BLOCK SBR_0:SBR0
+TITLE=COMENTARIOS DE LA SUBRUTINA
+BEGIN
+Network 1 // Título de segmento
+// Comentario de segmento
+END_SUBROUTINE_BLOCK
+INTERRUPT_BLOCK INT_0:INT0
+TITLE=COMENTARIOS DE LA RUTINA DE INTERRUPCIÓN
+BEGIN
+Network 1 // Título de segmento
+// Comentario de segmento
+END_INTERRUPT_BLOCK

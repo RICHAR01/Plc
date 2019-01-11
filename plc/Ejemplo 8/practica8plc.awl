@@ -1,0 +1,69 @@
+ORGANIZATION_BLOCK PRINCIPAL:OB1
+TITLE=
+BEGIN
+Network 1 // Título de segmento
+// Comentario de segmento
+LDN    I0.4
+LD     I0.0
+O      Q0.0
+ALD
+AN     I0.2
+AN     Q0.1
+AN     Q0.2
+=      Q0.0
+Network 2 
+LDN    I0.4
+LD     I0.2
+O      Q0.1
+ALD
+AN     I0.1
+AN     Q0.0
+AN     Q0.2
+=      Q0.1
+Network 3 
+LDN    I0.4
+A      I0.1
+EU
+TOF    T37, 5
+Network 4 
+LDN    I0.4
+A      T37
+=      Q0.3
+Network 5 
+LDN    I0.4
+A      Q0.3
+ED
+O      Q0.2
+AN     Q0.0
+AN     Q0.1
+A      I0.3
+=      Q0.2
+Network 6 // Título de segmento
+// Comentario de segmento
+LD     I0.6
+A      I0.7
+EU
+TOF    T38, 2
+Network 7 
+LD     T38
+=      Q0.4
+Network 8 
+LD     I0.6
+AN     Q0.4
+=      Q0.6
+Network 9 
+LDN    I0.7
+AN     Q0.7
+=      Q0.5
+END_ORGANIZATION_BLOCK
+SUBROUTINE_BLOCK TAN1:SBR0
+TITLE=
+BEGIN
+Network 1 
+END_SUBROUTINE_BLOCK
+INTERRUPT_BLOCK INT_0:INT0
+TITLE=COMENTARIOS DE LA RUTINA DE INTERRUPCIÓN
+BEGIN
+Network 1 // Título de segmento
+// Comentario de segmento
+END_INTERRUPT_BLOCK
